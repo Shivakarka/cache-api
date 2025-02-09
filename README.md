@@ -8,7 +8,6 @@ A simple in-memory key-value cache API built with Express.js.
 - Retrieve values by key
 - Update existing values
 - Delete entries
-- View all cache entries
 - CORS enabled
 - Configurable max cache size
 
