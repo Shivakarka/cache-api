@@ -23,7 +23,7 @@ app.post('/cache', (req, res) => {
 
     if (cache.hasOwnProperty(key)) {
         cache[key] = value;
-        return res.json({ message: 'Key updated successfully' });
+        return res.status(200).json({ message: 'Key updated successfully' });
       } else {
         if (Object.keys(cache).length >= MAX_SIZE) {
           return res.status(507).json({ error: 'Cache is full' });
