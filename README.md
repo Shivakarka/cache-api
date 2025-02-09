@@ -18,7 +18,6 @@ A simple in-memory key-value cache API built with Express.js.
 | ------ | ------------- | ------------------------------ |
 | POST   | `/cache`      | Add or update a key-value pair |
 | GET    | `/cache/:key` | Retrieve value by key          |
-| GET    | `/cache`      | Get all cache entries          |
 | DELETE | `/cache/:key` | Delete a key-value pair        |
 
 ## Installation
